@@ -57,3 +57,16 @@ The datasets support a range of ecological and environmental analyses, such as:
 
 Currently, datasets are project-restricted and stored in local project repositories.
 Data will become publicly available upon publication of the related scientific articles or datasets.
+
+## Database Statistics Summary
+
+| Table Name                     | Row Count | Column Count | Key Content                                   |
+|:-------------------------------:|:---------:|:------------:|:--------------------------------------------:|
+| microbiome_composition_results  | 30,325    | 4            | Species abundance counts per sample           |
+| microbiome_taxonomy_species     | 16,107    | 12           | Taxonomic classification of microbial species|
+| benthic_coverage                | 37        | 6            | Photoquadrat-based coverage estimates         |
+| microbiome_composition_samples  | 36        | 4            | Sample metadata for microbiome analyses      |
+| sediment_measurements           | 15        | 13           | Physical sediment properties                  |
+| macrobenthos_general_data       | 15        | 11           | Macrofauna biodiversity indices               |
+| dataset                         | 2         | 10           | High-level dataset descriptions               |
+| data_gathering_types            | 1         | 2            | Lookup table for data collection methods     |

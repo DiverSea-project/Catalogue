@@ -45,3 +45,20 @@ The datasets support analyses such as:
 ## Access and Sharing
 
 Datasets are currently project-restricted and managed by project partners. Public access may be provided following data publication or project data-sharing policies.
+
+## Database Statistics Summary
+
+| Table Name                     | Row Count    | Column Count | Key Content                                                         |
+|:-------------------------------:|:-----------:|:------------:|:------------------------------------------------------------------:|
+| hydrophones_noise_levels        | 2,186,990   | 11           | Sound Pressure Level measurements across frequency bands           |
+| hydrophones_whistles            | 185,971     | 7            | Cetacean acoustic presence data (sperm whale, bottlenose dolphin) |
+| survey_tracks_encounters        | 78,260      | 22           | Visual sightings of cetaceans and sea turtles with group sizes     |
+| survey_tracks_species           | 12          | 2            | Lookup table for species identified during surveys                 |
+| hydrophones_locations           | 6           | 3            | Fixed hydrophone station positions                                  |
+| survey_tracks_vessel_type       | 19          | 2            | Lookup table for vessel types encountered                           |
+| noise_level_bands               | 13          | 2            | Frequency bands for acoustic analysis (1/3 octave)                  |
+| survey_tracks_fishing_gear      | 8           | 2            | Lookup table for fishing gear types observed                        |
+| dataset                         | 3           | 10           | High-level dataset descriptions for survey campaigns               |
+| survey_encounter_type           | 4           | 2            | Lookup table for encounter categories                               |
+| survey_effort_types             | 3           | 2            | Lookup table for survey effort levels (searching, following, etc.) |
+| organization                    | 1           | 3            | Partner organization information                                    |

@@ -58,3 +58,23 @@ The datasets support a wide range of integrated analyses:
 
 ## Access and Sharing
 All datasets are currently project-limited and restricted to research purposes only. Data sharing is currently private, pending publication of related scientific articles or project completion. Access will be reviewed for future public release.
+
+## Database Statistics Summary
+
+| Table Name                         | Row Count | Column Count | Key Content                                                      |
+|:---------------------------------:|:---------:|:------------:|:----------------------------------------------------------------:|
+| phytoplankton                       | 4,713     | 11           | Phytoplankton species abundance, biomass, and cell volume        |
+| posidonia_phenology                 | 560       | 13           | Seagrass shoot-level phenological measurements                  |
+| posidonia_undamaged_scales_lengths  | 323       | 3            | Historical growth records from seagrass scales                  |
+| posidonia_lepido                     | 267       | 8            | Lepidochronological analysis of seagrass rhizomes               |
+| images_phytoplankton                 | 260       | 4            | Microscope images of phytoplankton species                      |
+| posidonia_biomass                    | 90        | 14           | Epiphyte and leaf biomass measurements                           |
+| posidonia_field                      | 45        | 7            | In-situ seagrass coverage and density measurements               |
+| seawater_measurements                | 22        | 18           | Biogeochemical parameters from water samples                     |
+| seawater_samples                     | 22        | 11           | Metadata for seawater collection events                          |
+| posidonia_species_coverage           | 15        | 3            | Associated species coverage within seagrass meadows              |
+| sediment_measurements_2              | 10        | 6            | Total Nitrogen, Total Organic Carbon, Total Carbon in sediments  |
+| posidonia_analysis                   | 5         | 3            | Parent table linking seagrass analyses                           |
+| posidonia_samples                    | 5         | 19           | Comprehensive seagrass sampling site metadata                    |
+| dataset                              | 4         | 10           | High-level dataset descriptions                                  |
+| organization                         | 1         | 3            | Partner organization information                                 |

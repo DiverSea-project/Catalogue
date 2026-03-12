@@ -53,3 +53,26 @@ Access and sharing conditions vary by dataset type:
 - Phytoplankton Census Data: Project-limited and currently private.
 - eDNA Data (Phyloseq objects): Publicly accessible for non-commercial use. Raw data files are deposited in the public NCBI SRA repository.
 - Socio-economic and Environmental Timeseries: Sourced from public databases and intended for non-commercial use as part of the MARBIOSE Dashboard (WP4).
+
+## Database Statistics Summary
+
+| Table Name                     | Row Count  | Column Count | Key Content                                                   |
+|:-------------------------------:|:---------:|:------------:|:------------------------------------------------------------:|
+| macrophytobenthos_frame         | 1,738     | 7            | Biomass and surface index measurements per sampling frame    |
+| macrozoobenthos                 | 1,558     | 12           | Species abundance and biomass from sediment samples          |
+| macrophytobenthos               | 469       | 25           | Comprehensive macrophyte community measurements and indices |
+| zooplankton                     | 702       | 10           | Zooplankton species abundance and biomass                    |
+| phytoplankton                   | 388       | 11           | Phytoplankton species abundance, biomass, and cell volume    |
+| macrophytes_eco_status          | 53        | 7            | Ecological status based on macrophyte indices (SWx)          |
+| invasive_alien_species          | 46        | 10           | Records of non-indigenous species in the region             |
+| abiotic_measurements            | 25        | 11           | Physical and chemical water parameters                       |
+| fish_data                       | 22        | 12           | Fish species counts and weights from surveys                 |
+| biological_pollution            | 18        | 9            | Biological pollution indices (ACI, RCI, SBCI)                |
+| phytoplankton_eco_status        | 17        | 8            | Ecological status based on phytoplankton metrics             |
+| macrozoobenthos_eco_status      | 16        | 7            | Ecological status based on M-AMBI index                      |
+| dataset                         | 8         | 10           | High-level dataset descriptions                               |
+| sampling_protocols              | 6         | 3            | Standardized methods for sample collection                   |
+| ecological_status_class         | 5         | 2            | Lookup table for ecological status categories                |
+| substrate_types                 | 2         | 2            | Lookup table for benthic substrate types                     |
+| organization                    | 1         | 3            | Partner organization information                               |
+| sampling_devices                | 1         | 3            | Equipment used for sample collection                           |

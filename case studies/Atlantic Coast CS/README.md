@@ -52,3 +52,13 @@ The datasets support analyses such as:
 ## Access and Sharing
 
 Most datasets are currently available for free non-commercial use, with access managed through project partners or associated data platforms.
+
+## Database Statistics Summary
+
+| Table Name       | Row Count | Column Count | Key Content                                           |
+|:----------------:|:---------:|:------------:|:----------------------------------------------------:|
+| dataset          | 13        | 10           | High-level dataset descriptions for drone, AUV, and sensor missions |
+| sonar_files      | 17        | 6            | Side scan sonar data from AUV missions              |
+| images_aerial    | 12        | 5            | Aerial and drone camera imagery                     |
+| lidar_files      | 4         | 4            | LiDAR point cloud data from drone scans             |
+| organization     | 1         | 3            | Partner organization information                    |
