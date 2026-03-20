@@ -4,7 +4,7 @@
 
 This folder contains the metadata documentation for datasets collected in the Northwestern Black Sea case study within the DiverSea project. The case study is coordinated by a partner from the Institute of Marine Biology (IMB) and focuses on monitoring biodiversity and environmental conditions in Ukrainian coastal waters.
 
-The datasets combine long-term field sampling, environmental measurements, and ecological assessments to study the structure and function of marine ecosystems and their response to environmental and anthropogenic pressures.
+The datasets combine long-term field sampling, environmental measurements and ecological assessments to study the structure and function of marine ecosystems and their response to environmental and anthropogenic pressures.
 
 ## Study Area
 
@@ -18,7 +18,7 @@ These sites represent a transition zone between freshwater and marine environmen
 ## Data Types
 
 The Ukrainian Black Sea case study includes several types of datasets:
-- Biodiversity data: Abundance and composition of macrophytobenthos (aquatic plants), macrozoobenthos (bottom-dwelling invertebrates), zooplankton, and phytoplankton.
+- Biodiversity data: Abundance and composition of macrophytobenthos (aquatic plants), macrozoobenthos (bottom-dwelling invertebrates), zooplankton and phytoplankton.
 - Alien Species Data: Records and distribution of non-indigenous species in the region.
 - Abiotic Environmental Data: Physical and chemical parameters of water and sediment.
 - Secondary Indices: Calculated ecological indices derived from primary biodiversity data to assess ecosystem health.
@@ -26,10 +26,10 @@ The Ukrainian Black Sea case study includes several types of datasets:
 ## Data Collection Methods
 
 Data were collected using standard oceanographic and biological field sampling methods, including:
-- Water sampling for phytoplankton, zooplankton, and abiotic parameters.
+- Water sampling for phytoplankton, zooplankton and abiotic parameters.
 - Sediment coring and grabs for macrozoobenthos analysis.
 - Benthic surveys for macrophytobenthos.
-- Laboratory analysis for species identification, enumeration, and measurement of abiotic parameters.
+- Laboratory analysis for species identification, enumeration and measurement of abiotic parameters.
 
 Sampling campaigns are conducted monthly, although the frequency may vary for different parameters. The datasets span multiple years, including both historical and newly collected data.
 
@@ -60,7 +60,7 @@ Currently, the datasets are project-limited, with access permissions to be refin
 | macrozoobenthos                 | 1,558     | 12           | Species abundance and biomass from sediment samples          |
 | macrophytobenthos               | 469       | 25           | Comprehensive macrophyte community measurements and indices |
 | zooplankton                     | 702       | 10           | Zooplankton species abundance and biomass                    |
-| phytoplankton                   | 388       | 11           | Phytoplankton species abundance, biomass, and cell volume    |
+| phytoplankton                   | 388       | 11           | Phytoplankton species abundance, biomass and cell volume    |
 | macrophytes_eco_status          | 53        | 7            | Ecological status based on macrophyte indices (SWx)          |
 | invasive_alien_species          | 46        | 10           | Records of non-indigenous species in the region             |
 | abiotic_measurements            | 25        | 11           | Physical and chemical water parameters                       |

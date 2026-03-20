@@ -4,7 +4,7 @@
 
 This folder contains the metadata documentation for datasets collected in the Adriatic Sea case study within the DiverSea project. The case study is coordinated by Università Politecnica delle Marche (UNIVPM) and focuses on monitoring biodiversity and environmental conditions along the Italian Adriatic coast.
 
-The datasets combine remote sensing, field surveys, environmental sampling, and molecular analyses to study coastal ecosystems and their response to environmental pressures.
+The datasets combine remote sensing, field surveys, environmental sampling and molecular analyses to study coastal ecosystems and their response to environmental pressures.
 
 ## Study Area
 
@@ -20,8 +20,8 @@ The Adriatic case study includes several types of datasets:
 - Drone imagery – UAV surveys used to map seagrass meadows and macroalgal forests.
 - Photoquadrat images – Underwater photographic surveys used to analyze macrobenthic community composition and coverage.
 - Environmental DNA (eDNA) data – Molecular data for prokaryotes and eukaryotes collected from sediment and seawater samples.
-- Benthic biodiversity data – Meiofauna and macrofauna abundance, biomass, and diversity.
-- Environmental parameters – Abiotic measurements such as temperature, salinity, pH, sediment granulometry, chlorophyll-a, and organic matter composition.
+- Benthic biodiversity data – Meiofauna and macrofauna abundance, biomass and diversity.
+- Environmental parameters – Abiotic measurements such as temperature, salinity, pH, sediment granulometry, chlorophyll-a and organic matter composition.
 
 ## Data Collection Methods
 

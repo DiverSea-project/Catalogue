@@ -3,7 +3,7 @@
 ## Overview
 This folder contains the metadata documentation for datasets collected in the Hellenic Volcanic Arc case study within the DiverSea project. The case study is coordinated by the National and Kapodistrian University of Athens (NKUA) and focuses on investigating biodiversity patterns and the impacts of tourism along a unique geological and environmental gradient.
 
-The datasets combine original field samples, molecular analyses, and publicly available socio-economic and environmental timeseries to study the relationship between ecosystem health and human activities.
+The datasets combine original field samples, molecular analyses and publicly available socio-economic and environmental timeseries to study the relationship between ecosystem health and human activities.
 
 ## Study Area
 
@@ -19,18 +19,18 @@ These sites provide a natural laboratory to study biodiversity under varying vol
 ## Data Types
 
 The Hellenic Islands case study includes several distinct types of datasets:
-- Phytoplankton and Protozooplankton Census Data: Species lists, abundance (cells mL⁻¹), and biomass (mg L⁻¹) from seawater samples collected along the volcanic arc.
+- Phytoplankton and Protozooplankton Census Data: Species lists, abundance (cells mL⁻¹) and biomass (mg L⁻¹) from seawater samples collected along the volcanic arc.
 - Environmental DNA (eDNA) Data: Microbial community data (16s and 18s ASVs) derived from seawater and sediment samples, providing taxonomic profiles for prokaryotes and microbial eukaryotes. This data is stored in Phyloseq objects.
 - Sample Metadata: Tables containing environmental parameters and sample information (coding, coordinates, site description) for all sampling sites.
-- Socio-economic and Environmental Timeseries: Publicly sourced data for Santorini (2000-2024) on tourism, waste production, maritime traffic, construction, and environmental conditions (phytoplankton concentration, physical-chemical water parameters, seagrass health).
+- Socio-economic and Environmental Timeseries: Publicly sourced data for Santorini (2000-2024) on tourism, waste production, maritime traffic, construction and environmental conditions (phytoplankton concentration, physical-chemical water parameters, seagrass health).
 
 ## Data Collection Methods
 
 Data were collected or compiled using a combination of methods:
 - Field Sampling: Single sampling events per site (2024-2025) using Niskin bottles for water collection and sediment coring, following international scientific standards.
 - Microscopic Analysis: Identification and enumeration of phytoplankton and protozooplankton communities.
-- Molecular Analysis: eDNA extraction, sequencing, and bioinformatic processing to generate microbial community data, with raw data deposited in NCBI's Sequence Read Archive (SRA).
-- Public Data Compilation: Downloading and processing timeseries data from public repositories such as Copernicus, EMODnet, INSETE, the Hellenic Statistical Authority, and the Greek Electronic Waste Registry.
+- Molecular Analysis: eDNA extraction, sequencing and bioinformatic processing to generate microbial community data, with raw data deposited in NCBI's Sequence Read Archive (SRA).
+- Public Data Compilation: Downloading and processing timeseries data from public repositories such as Copernicus, EMODnet, INSETE, the Hellenic Statistical Authority and the Greek Electronic Waste Registry.
 
 ## Data Formats
 
@@ -62,7 +62,7 @@ Access and sharing conditions vary by dataset type:
 | macrozoobenthos                 | 1,558     | 12           | Species abundance and biomass from sediment samples          |
 | macrophytobenthos               | 469       | 25           | Comprehensive macrophyte community measurements and indices |
 | zooplankton                     | 702       | 10           | Zooplankton species abundance and biomass                    |
-| phytoplankton                   | 388       | 11           | Phytoplankton species abundance, biomass, and cell volume    |
+| phytoplankton                   | 388       | 11           | Phytoplankton species abundance, biomass and cell volume    |
 | macrophytes_eco_status          | 53        | 7            | Ecological status based on macrophyte indices (SWx)          |
 | invasive_alien_species          | 46        | 10           | Records of non-indigenous species in the region             |
 | abiotic_measurements            | 25        | 11           | Physical and chemical water parameters                       |

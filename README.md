@@ -4,7 +4,7 @@
 
 This repository contains the data catalogue for the DiverSea project, providing structured metadata and documentation for datasets generated and collected within the project.
 
-DiverSea (Integrated Observation, Mapping, Monitoring and Prediction for Functional Biodiversity of Coastal Seas) is a Horizon Europe research project coordinated by Norwegian University of Science and Technology. The project aims to advance marine biodiversity monitoring through the integration of molecular techniques, environmental observations, and data-driven analytical approaches.
+DiverSea (Integrated Observation, Mapping, Monitoring and Prediction for Functional Biodiversity of Coastal Seas) is a Horizon Europe research project coordinated by Norwegian University of Science and Technology. The project aims to advance marine biodiversity monitoring through the integration of molecular techniques, environmental observations and data-driven analytical approaches.
 
 The data catalogue supports the DiverSea data space, enabling transparent access to information about datasets produced in the project's case studies.
 

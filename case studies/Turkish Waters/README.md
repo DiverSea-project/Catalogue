@@ -1,9 +1,9 @@
 # Turkish Waters (Çanakkale Onsekiz Mart University - DEU) Case Study Metadata
 
 ## Overview
-This folder contains the metadata documentation for datasets collected in the Turkish Waters case study within the DiverSea project. The case study is coordinated by Çanakkale Onsekiz Mart University (DEU) and focuses on a multi-disciplinary assessment of marine ecosystems in critical transition zones between the Sea of Marmara, the Çanakkale Strait (Dardanelles), and the Aegean Sea.
+This folder contains the metadata documentation for datasets collected in the Turkish Waters case study within the DiverSea project. The case study is coordinated by Çanakkale Onsekiz Mart University (DEU) and focuses on a multi-disciplinary assessment of marine ecosystems in critical transition zones between the Sea of Marmara, the Çanakkale Strait (Dardanelles) and the Aegean Sea.
 
-The datasets integrate physical oceanography, biogeochemistry, plankton ecology, environmental DNA (eDNA), and seagrass meadow assessments to provide a comprehensive picture of ecosystem structure and function.
+The datasets integrate physical oceanography, biogeochemistry, plankton ecology, environmental DNA (eDNA) and seagrass meadow assessments to provide a comprehensive picture of ecosystem structure and function.
 
 ## Study Area
 
@@ -12,19 +12,19 @@ The data were collected from three key locations representing different ecologic
 - Çanakkale Strait (Dardanelles) – A dynamic connective channel regulating water exchange between the Marmara and Aegean Seas.
 - Aegean Sea (Foça) – A fully marine, open coastal environment.
 
-These sites capture a gradient of salinity, stratification, and anthropogenic influence, making them ideal for comparative ecological studies.
+These sites capture a gradient of salinity, stratification and anthropogenic influence, making them ideal for comparative ecological studies.
 
 ## Data Types
 
 The Turkish Waters case study includes a diverse range of datasets:
 - Physical Oceanography: Underwater CTD (Conductivity, Temperature, Density) profiles collected using a CastAway sensor.
 - Water Column Biogeochemistry: Chemical and nutrient parameters from water samples.
-- Phytoplankton Data: Species lists, abundance, and images from preserved water samples.
-- Environmental DNA (eDNA): Molecular data from DNA extracted from seawater, sediment, and plant tissue samples (stored as FASTQ files).
+- Phytoplankton Data: Species lists, abundance and images from preserved water samples.
+- Environmental DNA (eDNA): Molecular data from DNA extracted from seawater, sediment and plant tissue samples (stored as FASTQ files).
 - Seagrass (Posidonia) Meadow Data:  
   ◦ Photogrammetry: Orthomosaics of visible seagrass meadows.  
-  ◦ In-situ Measurements: Shoot density, lower limit depth, and meadow type from visual census by diving.  
-  ◦ Laboratory Measurements: Epiphyte biomass, phenological measurements, and annual productivity.
+  ◦ In-situ Measurements: Shoot density, lower limit depth and meadow type from visual census by diving.  
+  ◦ Laboratory Measurements: Epiphyte biomass, phenological measurements and annual productivity.
 
 ## Data Collection Methods
 
@@ -34,7 +34,7 @@ Data were collected using a comprehensive suite of methods during a campaign in 
 - Molecular Analysis: DNA extraction and sequencing from environmental samples (water, sediment, plant tissue).
 - Diver-Based Surveys: Visual census and underwater measurements of seagrass meadows following RAC/SPA - UNEP/MAP monitoring protocols (2014).
 - Photogrammetry: Drone or underwater imaging to create orthomosaics for seagrass mapping.
-- Laboratory Analysis: Processing of seagrass samples for epiphyte biomass, phenology, and productivity.
+- Laboratory Analysis: Processing of seagrass samples for epiphyte biomass, phenology and productivity.
 
 ## Data Formats
 
@@ -50,7 +50,7 @@ File sizes range from small numerical files (KB-MB) to large image and sequencin
 ## Potential Analyses
 
 The datasets support a wide range of integrated analyses:
-- Correlation analysis between physical (CTD), chemical (biogeochemistry), and biological (phytoplankton, eDNA) parameters to understand ecosystem drivers.
+- Correlation analysis between physical (CTD), chemical (biogeochemistry) and biological (phytoplankton, eDNA) parameters to understand ecosystem drivers.
 - Seagrass habitat mapping and health assessment using photogrammetry and in-situ measurements.
 - Comparative analysis of seagrass meadow characteristics (density, productivity, epiphyte load) across different sites and with other DiverSea case studies.
 - Biodiversity assessment combining traditional microscopy (phytoplankton) with molecular (eDNA) methods.
@@ -63,7 +63,7 @@ All datasets are currently project-limited and restricted to research purposes o
 
 | Table Name                         | Row Count | Column Count | Key Content                                                      |
 |:---------------------------------:|:---------:|:------------:|:----------------------------------------------------------------:|
-| phytoplankton                       | 4,713     | 11           | Phytoplankton species abundance, biomass, and cell volume        |
+| phytoplankton                       | 4,713     | 11           | Phytoplankton species abundance, biomass and cell volume        |
 | posidonia_phenology                 | 560       | 13           | Seagrass shoot-level phenological measurements                  |
 | posidonia_undamaged_scales_lengths  | 323       | 3            | Historical growth records from seagrass scales                  |
 | posidonia_lepido                     | 267       | 8            | Lepidochronological analysis of seagrass rhizomes               |

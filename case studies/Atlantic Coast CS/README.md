@@ -2,11 +2,11 @@
 
 ## Overview
 
-This folder contains the metadata documentation for datasets collected in the Atlantic Coast case study of the DiverSea project. The study focuses on the Luiz Saldanha Marine Park (Portugal) and aims to monitor coastal habitats, biodiversity, and environmental conditions using a combination of remote sensing, in-situ sensors, and citizen science data.
+This folder contains the metadata documentation for datasets collected in the Atlantic Coast case study of the DiverSea project. The study focuses on the Luiz Saldanha Marine Park (Portugal) and aims to monitor coastal habitats, biodiversity and environmental conditions using a combination of remote sensing, in-situ sensors and citizen science data.
 
 ## Study Area
 
-Data are collected in the Luiz Saldanha Marine Park, located on the Atlantic coast of Portugal. The site is a marine protected area characterized by seagrass habitats, coastal sediments, and diverse marine ecosystems.
+Data are collected in the Luiz Saldanha Marine Park, located on the Atlantic coast of Portugal. The site is a marine protected area characterized by seagrass habitats, coastal sediments and diverse marine ecosystems.
 
 ## Data Types
 
@@ -57,7 +57,7 @@ Most datasets are currently available for free non-commercial use, with access m
 
 | Table Name       | Row Count | Column Count | Key Content                                           |
 |:----------------:|:---------:|:------------:|:----------------------------------------------------:|
-| dataset          | 13        | 10           | High-level dataset descriptions for drone, AUV, and sensor missions |
+| dataset          | 13        | 10           | High-level dataset descriptions for drone, AUV and sensor missions |
 | sonar_files      | 17        | 6            | Side scan sonar data from AUV missions              |
 | images_aerial    | 12        | 5            | Aerial and drone camera imagery                     |
 | lidar_files      | 4         | 4            | LiDAR point cloud data from drone scans             |
