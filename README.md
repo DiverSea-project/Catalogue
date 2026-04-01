@@ -1,4 +1,4 @@
-# data-catalogue
+# Catalogue
 
 ## Overview
 
