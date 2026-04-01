@@ -1,4 +1,4 @@
-# Catalogue
+# DiverSea catalogue
 
 ## Overview
 
