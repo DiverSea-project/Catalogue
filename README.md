@@ -10,16 +10,20 @@ This catalogue supports the DiverSea dataspace, enabling transparent access to i
 
 ## Purpose of the catalogue
 
-The catalogue provides a centralized overview of datasets and data structures generated in the DiverSea project. Its objectives are to:
+The DiverSea catalogue provides a centralized overview of datasets and data structures generated in the DiverSea project. Its objectives are to:
 - Document datasets produced in the project case studies
 - Provide standardized metadata descriptions
 - Describe the database structure and data models used to store the data
 
 ## Repository Structure
 
-### Metadata Catalogue
+### Data Analytics
 
-The metadata catalogue contains descriptive metadata for datasets produced in the DiverSea case studies which include:
+### Dataspace
+
+#### Case studies
+
+Contains descriptive metadata for datasets produced in the DiverSea case studies which include:
 - The Adriatic Sea
 - Atlantic coast of Portugal
 - The Balearic Islands
@@ -45,9 +49,7 @@ Each dataset entry includes information such as:
 - Access – Permission level (public, registered users, research-only, project-restricted).
 - Sharing – Data sharing conditions (private, licensed, commercial, public).
 
-The metadata catalogue enables users to discover and understand available datasets without accessing the raw data directly.
-
-### Data Model 
+#### Data model
 
 The data model documentation describes the structure of the DiverSea database used to store and manage project datasets.
 
@@ -58,3 +60,21 @@ This section includes:
 - Visual representations of the database structure
 
 Images and diagrams illustrate how the different components of the database are organized and connected.
+
+#### Data services 
+
+### Documents
+
+### Ecological services
+
+### Knowledge base
+
+### Publications
+
+### Software
+
+### Stakeholders
+
+### System analysis
+
+
