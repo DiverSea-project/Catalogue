@@ -25,11 +25,11 @@ The DiverSea catalogue provides a centralized overview of datasets and data stru
 
 Contains descriptive metadata for datasets produced in the DiverSea case studies which include:
 - The Adriatic Sea
-- Atlantic coast of Portugal
+- Atlantic coast
 - The Balearic Islands
-- Ukrainian Black Sea
-- Hellenic Islands
-- Norwegian coast
+- Black Sea
+- Hellenic Volcanic Arc
+- Norwegian/Swedish coast
 - Turkish waters
   
 Each dataset entry includes information such as:
@@ -61,7 +61,7 @@ This section includes:
 
 Images and diagrams illustrate how the different components of the database are organized and connected.
 
-#### Data services 
+### Data services 
 
 ### Documents
 
