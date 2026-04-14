@@ -2,89 +2,184 @@
 
 ## Overview
 
-This folder contains the SQL scripts and documentation for the DiverSea project's unified database schema. The schema is designed to accommodate all case studies (Adriatic, Atlantic, Balearic Islands, Ukrainian Black Sea, Turkish Waters, Norwegian and Hellenic Islands) under a consistent structure, enabling cross-case study analysis and integration.
+This folder contains the unified data model of the DiverSea Data Space, including the SQL schema, documentation, and visual representations of the database structure.
 
-The data model follows a modular design and can be separated in the following key thematic groups:
+The data model is designed to support the **storage, harmonisation, and structured representation of heterogeneous datasets** collected across all project case studies (Adriatic, Atlantic Coast, Balearic Islands, Black Sea, Turkish Waters, Norwegian Coast, and Hellenic Volcanic Arc).
 
-- Group Dataset – The core administrative layer that defines datasets, their categories and the contributing organizations.
+It represents the **physical layer of the DiverSea Data Space**, complementing the semantic layer defined in the knowledge base (ontology), and enabling efficient data storage, querying, and integration.
 
-- Group Biotic – A comprehensive collection of tables for biological observations, including fish, macrobenthos, plankton, eDNA results and specialized monitoring for Posidonia seagrass.
+The model is implemented as a **relational database schema (PostgreSQL)** and can be deployed using the provided SQL scripts.
 
-- Group Abiotic – Technical tables for environmental parameters, including physical oceanography (CTD), seawater chemistry and sediment analysis.
+---
 
-- Group Files – A specialized module for managing external file references such as LiDAR, sonar, hydrophone audio and various imagery types (aerial, underwater and ground surveys).
+## Design Principles
 
-- Group Reference – The foundational lookup tables for sampling devices, protocols, taxonomic species lists and survey classifications.
+The data model is developed based on:
 
-- Group Standards – Tables dedicated to maintaining and mapping international and project-specific standards to datasets.
+* Metadata collected from all case studies
+* Iterative refinement using real data samples
+* The need to support diverse data types (structured, semi-structured, binary)
+* Compatibility with analytical workflows in WP3 and WP4
 
-A detailed description of the schema, including entity-relationship diagrams and table group visualizations, is provided in the accompanying PDF documentation. The SQL script (diversea_schema.sql) can be executed to generate the complete database structure across all case studies.
+It follows a **modular and extensible architecture**, allowing integration of new datasets and adaptation to evolving analytical requirements.
 
-![data model](figures/data_model_full.jpg "Data model")
+---
 
-## Group dataset
+## Structure of the Data Model
 
-This group serves as the entry point for all data in the schema. The central dataset table links every record to a specific location, time range and data gathering type. It is supported by organization and dataset_categories to ensure clear ownership and classification across the multi-partner project.
+The schema is organised into several thematic groups, each representing a specific aspect of the data space:
+
+### Group Dataset
+
+The **core administrative layer** of the data model.
+
+It defines:
+
+* Datasets and their metadata
+* Data ownership and contributing organisations
+* Dataset categorisation and classification
+
+This group acts as the **entry point**, linking all records to their:
+
+* Origin (case study)
+* Spatial and temporal context
+* Data collection methodology
 
 ![data model](figures/data_model_group_dataset.png "Group dataset")
 
-## Group biotic
+---
 
-This group captures biodiversity at multiple scales:
+### Group Biotic
 
-- Macro-organisms: Tables for fish_data, macrobenthos, meiofauna and macrofauna.
+This group captures **biodiversity and biological observations** across multiple levels of granularity.
 
-- Molecular/Microbial: Dedicated structures for bacteria_edna_results, eukaryotes_edna_results and microbiome_composition_results.
+It includes:
 
-- Plankton & Seagrass: Specific monitoring for phytoplankton, zooplankton and highly detailed tables for posidonia (biomass, phenology and coverage).
+* **Macro-organisms**: fish, macrobenthos, meiofauna, macrofauna
+* **Molecular data**: eDNA-based results (bacteria, eukaryotes, microbiome composition)
+* **Primary producers**: phytoplankton, zooplankton
+* **Habitat-specific monitoring**: detailed Posidonia seagrass data (biomass, phenology, coverage)
+* **Ecological indicators**: biodiversity indices and pollution metrics
 
-- Indices: Tables like biological_pollution and macrofauna_diversity_index store computed ecological metrics.
+This structure enables both **raw data storage and derived ecological indicators**.
 
 ![data model](figures/data_model_group_biotic.png "Group biotic")
 
-## Group abiotic
+---
 
-This group contains environmental variables through structured measurement tables:
+### Group Abiotic
 
-- Water Column: ctd_measurements (basic and chemical) and seawater_samples track parameters like salinity, temperature, nutrients and chlorophyll.
+This group represents **environmental and physical parameters** describing the marine ecosystem.
 
-- Seabed: sediment_measurements and sediment_contamination tables record granulometry and chemical pollutants.
+It includes:
 
-- Dynamic Data: Includes water_temperature_logs, marine_litter counts and ground_surveys_habitat.
+* **Water column measurements**: CTD data (temperature, salinity, depth), chemical properties, nutrients
+* **Seawater samples**: laboratory analysis results
+* **Seabed data**: sediment composition, granulometry, contamination
+* **Dynamic observations**: time-series data (e.g. temperature logs), marine litter, habitat surveys
+
+These datasets provide the **environmental context** required for interpreting biodiversity patterns.
 
 ![data model](figures/data_model_group_abiotic.png "Group abiotic")
 
-## Group files
+---
 
-To handle high-volume raw data, this group stores metadata and file paths for external assets:
+### Group Files
 
-- Acoustics: audio_hydrophones metadata.
+This group manages **unstructured and high-volume data assets** stored outside the relational database.
 
-- Remote Sensing: lidar_files, sonar_files and hypso_data_files.
+It includes metadata and references for:
 
-- Visual Media: Separate tables for images_aerial, images_underwater, images_phytoplankton and video_ground_survey.
+* **Acoustic data**: hydrophone recordings
+* **Remote sensing data**: LiDAR, sonar, bathymetric and spatial datasets
+* **Visual media**: aerial, underwater and ground images, videos
+* **Specialised scientific outputs**: phytoplankton imagery and survey media
+
+The actual files are stored externally (e.g. file systems), while the database maintains **structured metadata and access references**.
 
 ![data model](figures/data_model_group_files.png "Group files")
 
-## Group reference
+---
 
-This group maintains data integrity by providing standardized lookup values, ensuring consistency across all researchers and case studies.
+### Group Reference
 
-- Methodology & Equipment: Centralizes definitions for sampling_devices, sampling_protocols and substrate_types to standardize fieldwork.
+This group ensures **data consistency, standardisation, and integrity** across all datasets.
 
-- Survey Metadata: Categorizes field effort through survey_encounter_type and survey_tracks_vessel_type for sailing and AUV missions.
+It includes:
 
-- Taxonomy: Provides the foundational species lists to prevent naming discrepancies in biological records.
+* **Sampling methodologies and equipment**: devices, protocols, substrate types
+* **Survey classifications**: encounter types, vessel types, mission categories
+* **Taxonomic references**: standardised species lists
+
+This layer acts as a **controlled vocabulary and lookup system**, reducing ambiguity and ensuring harmonised data entry across case studies.
 
 ![data model](figures/data_model_group_reference.png "Group reference")
 
-## Group standards
+---
 
-This specialized module is dedicated to aligning DiverSea data with international and project-specific frameworks.
+### Group Standards
 
-- Compliance Mapping: The standards table defines the specific frameworks or quality control levels required for the project.
+This group supports **alignment with international and project-specific standards**.
 
-- Dataset Integration: The standards_datasets mapping table links these global standards directly to specific datasets, ensuring that all entries remain compliant and interoperable for external sharing.
+It includes:
+
+* Definitions of standards, frameworks, and quality requirements
+* Mapping between datasets and applicable standards
+
+This enables:
+
+* **Interoperability with external systems**
+* **Compliance with FAIR principles**
+* Preparation for integration with platforms such as EMODnet and Copernicus
 
 ![data model](figures/data_model_group_standards.png "Group standards")
 
+---
+
+## Full Data Model
+
+A complete overview of the schema is provided in the full entity-relationship diagram:
+
+![data model](figures/data_model_full.jpg "Data model")
+
+Additional documentation, including detailed descriptions and diagrams of each group, is available in:
+
+* `data_model.pdf`
+
+---
+
+## Usage
+
+The database schema can be deployed by executing the provided SQL script:
+
+* `biodiversity.sql`
+
+This will create a relational database capable of storing:
+
+* Structured datasets from all case studies
+* References to unstructured data (files, media, sensor outputs)
+* Standardised metadata for interoperability and analysis
+
+---
+
+## Role in DiverSea Data Space
+
+Within the overall architecture:
+
+* The data model provides the **physical storage layer** of the data space
+* It is derived from case study metadata and real datasets
+* It supports **data integration, harmonisation, and querying**
+* It serves as input for:
+
+  * Semantic modelling (ontology / knowledge base)
+  * Analytical workflows (AI/ML, statistical modelling, system dynamics)
+
+Together with the ontology, it forms the **core infrastructure of the DiverSea Data Space**.
+
+---
+
+## Notes
+
+* The data model is expected to evolve as new datasets and analytical requirements emerge
+* Future versions may include transformations and extensions driven by WP3 and WP4 analytical needs
+* The schema is designed to be reusable and deployable across different environments and case studies
