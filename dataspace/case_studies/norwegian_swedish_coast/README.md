@@ -1,4 +1,4 @@
-# Norwegian Coast Case Study Metadata
+# Norwegian/Swedish Coast Case Study Metadata
 
 ## Database Statistics Summary
 

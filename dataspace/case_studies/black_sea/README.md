@@ -1,4 +1,4 @@
-# Ukrainian Black Sea Case Study Metadata
+# Black Sea Case Study Metadata
 
 ## Overview
 
