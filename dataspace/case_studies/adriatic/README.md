@@ -6,6 +6,8 @@ This folder contains the metadata documentation for datasets collected in the Ad
 
 The datasets combine remote sensing, field surveys, environmental sampling and molecular analyses to study coastal ecosystems and their response to environmental pressures.
 
+---
+
 ## Study Area
 
 The data were collected along the Adriatic coast of Italy, including:
@@ -13,6 +15,8 @@ The data were collected along the Adriatic coast of Italy, including:
 - Apulia region (Torre Guaceto Marine Protected Area)
 
 These sites represent different environmental conditions and levels of anthropogenic impact, including protected and impacted coastal areas.
+
+---
 
 ## Data Types
 
@@ -22,6 +26,8 @@ The Adriatic case study includes several types of datasets:
 - Environmental DNA (eDNA) data – Molecular data for prokaryotes and eukaryotes collected from sediment and seawater samples.
 - Benthic biodiversity data – Meiofauna and macrofauna abundance, biomass and diversity.
 - Environmental parameters – Abiotic measurements such as temperature, salinity, pH, sediment granulometry, chlorophyll-a and organic matter composition.
+
+---
 
 ## Data Collection Methods
 
@@ -35,6 +41,8 @@ Data were collected using a combination of remote sensing and field sampling met
 
 Sampling campaigns were conducted between 2018 and 2025, with both historical and newly collected datasets.
 
+---
+
 ## Data Formats
 
 The datasets are stored in several formats, including:
@@ -45,6 +53,8 @@ The datasets are stored in several formats, including:
 
 Individual datasets range from small analytical files (<10 MB) to large image collections (several GB).
 
+---
+
 ## Potential Analyses
 
 The datasets support a range of ecological and environmental analyses, such as:
@@ -53,10 +63,14 @@ The datasets support a range of ecological and environmental analyses, such as:
 - Investigating relationships between biodiversity and environmental conditions
 - Comparing sites with different levels of anthropogenic pressure or protection
 
+---
+
 ## Access and Sharing
 
 Currently, datasets are project-restricted and stored in local project repositories.
 Data will become publicly available upon publication of the related scientific articles or datasets.
+
+---
 
 ## Database Statistics Summary
 

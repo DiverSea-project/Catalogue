@@ -6,6 +6,8 @@ This folder contains the metadata documentation for datasets collected in the No
 
 The datasets combine long-term field sampling, environmental measurements and ecological assessments to study the structure and function of marine ecosystems and their response to environmental and anthropogenic pressures.
 
+---
+
 ## Study Area
 
 The data were collected in the Northwestern part of the Black Sea, specifically within:
@@ -15,6 +17,8 @@ The data were collected in the Northwestern part of the Black Sea, specifically 
 
 These sites represent a transition zone between freshwater and marine environments (estuaries) and open coastal waters, providing a basis for studying ecological gradients and human impacts.
 
+---
+
 ## Data Types
 
 The Ukrainian Black Sea case study includes several types of datasets:
@@ -22,6 +26,8 @@ The Ukrainian Black Sea case study includes several types of datasets:
 - Alien Species Data: Records and distribution of non-indigenous species in the region.
 - Abiotic Environmental Data: Physical and chemical parameters of water and sediment.
 - Secondary Indices: Calculated ecological indices derived from primary biodiversity data to assess ecosystem health.
+
+---
 
 ## Data Collection Methods
 
@@ -33,12 +39,16 @@ Data were collected using standard oceanographic and biological field sampling m
 
 Sampling campaigns are conducted monthly, although the frequency may vary for different parameters. The datasets span multiple years, including both historical and newly collected data.
 
+---
+
 ## Data Formats
 
 The datasets are stored in common tabular formats:
 - XLSX files (for all sampling and abiotic parameter data)
 
 The datasets are small in size, with 21 individual files totalling less than 1 MB.
+
+---
 
 ## Potential Analyses
 
@@ -48,9 +58,13 @@ The datasets support a range of ecological and environmental analyses, such as:
 - Tracking the introduction and spread of alien species.
 - Analyzing the relationships between biological communities and environmental gradients (e.g., salinity, nutrients).
 
+---
+
 ## Access and Sharing
 
 Currently, the datasets are project-limited, with access permissions to be refined for different indicators. Data will be made available through scientific publications and will become publicly accessible thereafter.
+
+---
 
 ## Database Statistics Summary
 

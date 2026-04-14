@@ -5,6 +5,8 @@ This folder contains the metadata documentation for datasets collected in the Tu
 
 The datasets integrate physical oceanography, biogeochemistry, plankton ecology, environmental DNA (eDNA) and seagrass meadow assessments to provide a comprehensive picture of ecosystem structure and function.
 
+---
+
 ## Study Area
 
 The data were collected from three key locations representing different ecological and hydrological regimes:
@@ -14,6 +16,8 @@ The data were collected from three key locations representing different ecologic
 
 These sites capture a gradient of salinity, stratification and anthropogenic influence, making them ideal for comparative ecological studies.
 
+---
+
 ## Data Types
 
 The Turkish Waters case study includes a diverse range of datasets:
@@ -22,9 +26,11 @@ The Turkish Waters case study includes a diverse range of datasets:
 - Phytoplankton Data: Species lists, abundance and images from preserved water samples.
 - Environmental DNA (eDNA): Molecular data from DNA extracted from seawater, sediment and plant tissue samples (stored as FASTQ files).
 - Seagrass (Posidonia) Meadow Data:  
-  ◦ Photogrammetry: Orthomosaics of visible seagrass meadows.  
-  ◦ In-situ Measurements: Shoot density, lower limit depth and meadow type from visual census by diving.  
-  ◦ Laboratory Measurements: Epiphyte biomass, phenological measurements and annual productivity.
+  - Photogrammetry: Orthomosaics of visible seagrass meadows.  
+  - In-situ Measurements: Shoot density, lower limit depth and meadow type from visual census by diving.  
+  - Laboratory Measurements: Epiphyte biomass, phenological measurements and annual productivity.
+
+---
 
 ## Data Collection Methods
 
@@ -35,6 +41,8 @@ Data were collected using a comprehensive suite of methods during a campaign in 
 - Diver-Based Surveys: Visual census and underwater measurements of seagrass meadows following RAC/SPA - UNEP/MAP monitoring protocols (2014).
 - Photogrammetry: Drone or underwater imaging to create orthomosaics for seagrass mapping.
 - Laboratory Analysis: Processing of seagrass samples for epiphyte biomass, phenology and productivity.
+
+---
 
 ## Data Formats
 
@@ -47,6 +55,8 @@ The datasets are stored in a variety of formats reflecting their diverse nature:
 
 File sizes range from small numerical files (KB-MB) to large image and sequencing datasets (up to 120 GB total for phytoplankton images).
 
+---
+
 ## Potential Analyses
 
 The datasets support a wide range of integrated analyses:
@@ -56,8 +66,12 @@ The datasets support a wide range of integrated analyses:
 - Biodiversity assessment combining traditional microscopy (phytoplankton) with molecular (eDNA) methods.
 - Ecosystem status assessment in a critical transitional water corridor.
 
+---
+
 ## Access and Sharing
 All datasets are currently project-limited and restricted to research purposes only. Data sharing is currently private, pending publication of related scientific articles or project completion. Access will be reviewed for future public release.
+
+---
 
 ## Database Statistics Summary
 

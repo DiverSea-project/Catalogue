@@ -5,6 +5,8 @@ This folder contains the metadata documentation for datasets collected in the He
 
 The datasets combine original field samples, molecular analyses and publicly available socio-economic and environmental timeseries to study the relationship between ecosystem health and human activities.
 
+---
+
 ## Study Area
 
 The data were collected from multiple sites along the Hellenic Volcanic Arc, a geologically active region in the Aegean Sea. The specific islands and locations include:
@@ -16,6 +18,8 @@ The data were collected from multiple sites along the Hellenic Volcanic Arc, a g
 
 These sites provide a natural laboratory to study biodiversity under varying volcanic influence and levels of touristic development. Additionally, Santorini serves as a focal point for integrating socio-economic data.
 
+---
+
 ## Data Types
 
 The Hellenic Islands case study includes several distinct types of datasets:
@@ -23,6 +27,8 @@ The Hellenic Islands case study includes several distinct types of datasets:
 - Environmental DNA (eDNA) Data: Microbial community data (16s and 18s ASVs) derived from seawater and sediment samples, providing taxonomic profiles for prokaryotes and microbial eukaryotes. This data is stored in Phyloseq objects.
 - Sample Metadata: Tables containing environmental parameters and sample information (coding, coordinates, site description) for all sampling sites.
 - Socio-economic and Environmental Timeseries: Publicly sourced data for Santorini (2000-2024) on tourism, waste production, maritime traffic, construction and environmental conditions (phytoplankton concentration, physical-chemical water parameters, seagrass health).
+
+---
 
 ## Data Collection Methods
 
@@ -32,12 +38,16 @@ Data were collected or compiled using a combination of methods:
 - Molecular Analysis: eDNA extraction, sequencing and bioinformatic processing to generate microbial community data, with raw data deposited in NCBI's Sequence Read Archive (SRA).
 - Public Data Compilation: Downloading and processing timeseries data from public repositories such as Copernicus, EMODnet, INSETE, the Hellenic Statistical Authority and the Greek Electronic Waste Registry.
 
+---
+
 ## Data Formats
 
 The datasets are stored in a variety of formats:
 - CSV files (phytoplankton census data, socio-economic timeseries, sample information tables)
 - RDS files (Phyloseq objects containing eDNA data)
 - Raw sequence data files are stored in the NCBI SRA public repository.
+
+---
 
 ## Potential Analyses
 
@@ -47,12 +57,16 @@ The datasets support a range of integrated ecological and socio-environmental an
 - Correlation between microscopic and molecular (eDNA) assessments of plankton communities.
 - Long-term trend analysis of environmental quality and ecosystem health in relation to human activities.
 
+---
+
 ## Access and Sharing
 
 Access and sharing conditions vary by dataset type:
 - Phytoplankton Census Data: Project-limited and currently private.
 - eDNA Data (Phyloseq objects): Publicly accessible for non-commercial use. Raw data files are deposited in the public NCBI SRA repository.
 - Socio-economic and Environmental Timeseries: Sourced from public databases and intended for non-commercial use as part of the MARBIOSE Dashboard (WP4).
+
+---
 
 ## Database Statistics Summary
 
