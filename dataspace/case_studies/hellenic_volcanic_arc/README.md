@@ -1,4 +1,4 @@
-# Hellenic Islands (Volcanic Arc) Case Study Metadata
+# Hellenic Volcanic Arc Case Study Metadata
 
 ## Overview
 This folder contains the metadata documentation for datasets collected in the Hellenic Volcanic Arc case study within the DiverSea project. The case study is coordinated by the National and Kapodistrian University of Athens (NKUA) and focuses on investigating biodiversity patterns and the impacts of tourism along a unique geological and environmental gradient.
