@@ -1,4 +1,4 @@
-# Turkish Waters (Çanakkale Onsekiz Mart University - DEU) Case Study Metadata
+# Turkish Waters Case Study Metadata
 
 ## Overview
 This folder contains the metadata documentation for datasets collected in the Turkish Waters case study within the DiverSea project. The case study is coordinated by Çanakkale Onsekiz Mart University (DEU) and focuses on a multi-disciplinary assessment of marine ecosystems in critical transition zones between the Sea of Marmara, the Çanakkale Strait (Dardanelles) and the Aegean Sea.
