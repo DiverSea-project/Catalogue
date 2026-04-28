@@ -81,13 +81,10 @@ The data model defines the **unified relational schema** used to structure and s
 
 It includes:
 
-* Database schema (SQL)
 * Entity-relationship models
 * Table structures and attributes
 * Data group organisation (biotic, abiotic, datasets, files, etc.)
 * Visual diagrams of the database
-
-This component ensures **consistent data storage and integration across all case studies**.
 
 ---
 
@@ -104,6 +101,12 @@ These include:
 * **Semantic Data Search** – Ontology-based discovery of relevant datasets
 
 These services enable **multi-level interaction with the data**, from raw access to semantic querying. -->
+
+---
+
+#### Database
+
+The database includes the SQL script for creating the unified data model of the case studies. It ensures **consistent data storage and integration**.
 
 ---
 
