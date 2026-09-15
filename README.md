@@ -186,12 +186,21 @@ It supports engagement, dissemination and  collaboration activities. -->
 
 ### System Analysis
 
-<!-- This section includes system-level analyses and modelling outputs, such as:
+The System Analysis section contains the MARBIOSE Dashboard, which integrates system-dynamics modelling with spatial data and scenario analysis to investigate marine biodiversity, ecosystem pressures and ecosystem services.
 
-* Integrated system models
-* Cross-domain analysis
-* Impact and scenario modelling
-* Support for decision-making processes -->
+The MARBIOSE Dashboard provides a spatial representation of modelled ecosystem responses and allows users to explore how different environmental and management scenarios may affect the spatial distribution of ecosystem conditions.
+
+The system analysis includes:
+
+* **System-Dynamics Modelling** – A system-dynamics model implemented in Vensim and converted to Python using PySD. The current implementation focuses on the interactions between tourism, marine pressures and seagrass ecosystems in the Hellenic Volcanic Arc/Santorini case study.
+* **Spatial Data Integration** – Integration of seagrass distribution, marine traffic density, tourism hotspots and protected-area data to spatially distribute the outputs of the system-dynamics model.
+* **Spatial Scenario Analysis** – Generation of spatial scenarios by combining the system-dynamics model with spatially differentiated environmental pressures and management conditions.
+* **Seagrass Spatial Modelling** – Spatialization of modelled seagrass dynamics using 5 × 5 km spatial units, followed by rasterization and stochastic spatial erosion. Multiple Monte Carlo simulations are used to estimate mean seagrass presence probabilities.
+* **Tourism Pressure Mapping** – Generation of spatial tourism-pressure maps based on tourism hotspots and their distance from surrounding areas, using an exponential distance-decay function.
+* **Management Scenarios** – Implementation of scenarios including a baseline scenario, marine-traffic restrictions within protected areas, additional marine-pollution assumptions, and scenarios where tourism sensitivity is linked to seagrass decline.
+* **Spatial Outputs** – Generation of spatial outputs for visualization in the MARBIOSE Dashboard, including raster-based seagrass probability maps and spatial pressure layers.
+
+The MARBIOSE Dashboard provides the interface for exploring these spatial scenarios and their results.
 
 ---
 
