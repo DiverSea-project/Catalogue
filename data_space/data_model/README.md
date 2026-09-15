@@ -2,11 +2,11 @@
 
 ## Overview
 
-This folder contains the unified data model of the DiverSea Data Space, including the SQL schema, documentation, and visual representations of the database structure.
+This folder contains the unified data model of the DiverSea dataspace, including the SQL schema, documentation, and visual representations of the database structure.
 
 The data model is designed to support the **storage, harmonisation, and structured representation of heterogeneous datasets** collected across all project case studies (Adriatic, Atlantic Coast, Balearic Islands, Black Sea, Turkish Waters, Norwegian Coast, and Hellenic Volcanic Arc).
 
-It represents the **physical layer of the DiverSea Data Space**, complementing the semantic layer defined in the knowledge base (ontology), and enabling efficient data storage, querying, and integration.
+It represents the **physical layer of the DiverSea dataspace**, complementing the semantic layer defined in the knowledge base (ontology), and enabling efficient data storage, querying, and integration.
 
 The model is implemented as a **relational database schema (PostgreSQL)** and can be deployed using the provided SQL scripts.
 
@@ -27,7 +27,7 @@ It follows a **modular and extensible architecture**, allowing integration of ne
 
 ## Structure of the Data Model
 
-The schema is organised into several thematic groups, each representing a specific aspect of the data space:
+The schema is organised into several thematic groups, each representing a specific aspect of the dataspace:
 
 ### Group Dataset
 
@@ -162,11 +162,11 @@ This will create a relational database capable of storing:
 
 ---
 
-## Role in DiverSea Data Space
+## Role in DiverSea dataspace
 
 Within the overall architecture:
 
-* The data model provides the **physical storage layer** of the data space
+* The data model provides the **physical storage layer** of the dataspace
 * It is derived from case study metadata and real datasets
 * It supports **data integration, harmonisation, and querying**
 * It serves as input for:
@@ -174,7 +174,7 @@ Within the overall architecture:
   * Semantic modelling (ontology / knowledge base)
   * Analytical workflows (AI/ML, statistical modelling, system dynamics)
 
-Together with the ontology, it forms the **core infrastructure of the DiverSea Data Space**.
+Together with the ontology, it forms the **core infrastructure of the DiverSea dataspace**.
 
 ---
 

@@ -1,10 +1,10 @@
 # Knowledge Base
 
-This folder contains the semantic representation of the DiverSea Data Space, implemented as an RDF/OWL ontology.
+This folder contains the semantic representation of the DiverSea dataspace, implemented as an RDF/OWL ontology.
 
 ## Overview
 
-The knowledge base represents the **logical model of the DiverSea Data Space**, enabling a shared and formalised understanding of the heterogeneous data collected across all case studies.
+The knowledge base represents the **logical model of the DiverSea dataspace**, enabling a shared and formalised understanding of the heterogeneous data collected across all case studies.
 
 The ontology is developed using Semantic Web standards and tools (e.g. Protégé) and is serialized in RDF format. It defines:
 
@@ -21,7 +21,7 @@ The ontology currently includes a large number of concepts, relationships, and a
 
 ## Contents
 
-* `biodiversity.rdf` – RDF ontology describing the conceptual model of the DiverSea Data Space, including domain concepts, relationships, and attributes
+* `biodiversity.rdf` – RDF ontology describing the conceptual model of the DiverSea dataspace, including domain concepts, relationships, and attributes
 
 ## Purpose
 
@@ -29,13 +29,13 @@ The knowledge base supports:
 
 * **Logical unification of heterogeneous data** from multiple case studies
 * **Semantic interoperability** across different domains (biology, environmental science, data science, etc.)
-* **Data integration and harmonisation** within the DiverSea Data Space
+* **Data integration and harmonisation** within the DiverSea dataspace
 * **Support for advanced data analysis**, including AI/ML and system-level modelling
 * **Semantic search and reasoning** over datasets and analytical workflows
 
-## Role in DiverSea Data Space
+## Role in DiverSea dataspace
 
-Within the overall architecture of the DiverSea Data Space:
+Within the overall architecture of the DiverSea dataspace:
 
 * The ontology acts as a **semantic layer** on top of the unified data model
 * It complements the **relational database model** by providing conceptual meaning and relationships
