@@ -152,7 +152,7 @@ Additional documentation, including detailed descriptions and diagrams of each g
 
 The database schema can be deployed by executing the provided SQL script:
 
-* `biodiversity.sql`
+* `./database/biodiversity.sql`
 
 This will create a relational database capable of storing:
 
