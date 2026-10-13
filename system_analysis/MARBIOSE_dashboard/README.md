@@ -34,7 +34,7 @@ The workflow combines a System Dynamics model implemented in Vensim and executed
 * Marine protected areas (MPAs)
 
 <p align="center">
-    <img src="figures/Picture1.png" alt="Structural overview of the Touristic island without fisheries model">
+    <img src="figures/Touristic_island_without_fisheries.png" alt="Structural overview of the Touristic island without fisheries model">
     <br>
     <strong> Structural overview of the “Touristic island without fisheries” model within the model buildup tab of the MARBIOSE dashboard. </strong>
 </p>
